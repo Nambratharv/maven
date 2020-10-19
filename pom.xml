@@ -49,6 +49,15 @@
                 </configuration>
             </plugin>
         </plugins>
+         
+    <plugins>
+        <plugin>
+            <groupId>org.openclover</groupId>
+            <artifactId>clover-maven-plugin</artifactId>
+            <version>${clover.version}</version>     
+        </plugin>
+    </plugins>
+
       </build>
     </profile>
   </profiles>
